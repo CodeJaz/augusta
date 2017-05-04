@@ -1,0 +1,1007 @@
+@import "../bootstrap/css/bootstrap.min.css";
+@import "../bootstrap/css/bootstrap-theme.min.css";
+@import "font-awesome.min.css";
+@import "animate.css";
+@import "animsition.min.css";
+@import "font.css";
+@import "menu.css";
+@import "color1.css";
+
+
+
+body {
+    font-family: TextaAlt-Regular;
+    overflow-x: hidden;
+    background: #f4f4f4;
+}
+
+h1{
+    text-indent: -999999px;
+    width: 189px;
+    height: 45px;
+    margin: 0;
+    background: url("../img/logo-augusta-blanco.png") no-repeat;
+}
+
+/*INTRO*/
+.intro-view {
+    position: relative;
+    text-align: center;
+    padding-top: 15%;
+    min-height: 100vh;
+    overflow: hidden;
+    z-index: 3;
+
+}
+
+.intro .overlay {
+    position: absolute;
+    background: rgba(0,0,0,.6);
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.btn-default {
+    border-radius: 0;
+    border: none;
+    text-shadow: none;
+    color: #ffffff;
+    font-family: TextaAlt-Bold;
+    font-size: 17px;
+}
+
+
+.txt-intro {
+    width: 50%;
+    text-transform: uppercase;
+    margin: 40px auto;
+    animation-name: fadeInUp;
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-delay: 2s;
+}
+
+
+.by {
+    margin-top: 40px;
+    font-size: 11px;
+    animation-name: fadeInUp;
+    -webkit-animation-delay: 5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 5s;
+}
+
+.videos a {
+    color: #ffffff;
+
+}
+
+.videos  {
+
+    animation-name: fadeInUp;
+    -webkit-animation-delay: 4s; /* Safari 4.0 - 8.0 */
+    animation-delay: 4s;
+}
+
+.by b {
+    font-family: TextaAlt-Bold;
+    opacity: .8;
+}
+
+.intro-view .btn {
+    margin: 50px 0;
+}
+
+.logo-intro {
+    animation-name: fadeInUp;
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
+}
+
+.intro-view .btn-intro {
+    animation-name: fadeInUp;
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+}
+
+.txt-introduction {
+    width: 60%;
+    margin: 40px auto;
+}
+
+.btn-intro {
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+.btn-intro:hover {
+    color: #ffffff;
+}
+
+/*HOME*/
+
+.header {
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.item-head {
+    display: inline-block;
+    margin: 15px 40px;
+}
+
+.item-head a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.container_90 {
+    width: 90%;
+    margin: auto;
+}
+
+.view-content {
+    text-align: center;
+    padding: 20px 0;
+    min-height: calc(100vh - 115px)
+}
+
+.view-content p.txt-introduction {
+    font-size: 19px;
+    line-height: 19px;
+    font-family: TextaAlt-Bold;
+}
+
+.menu {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+.menu:hover {
+    color: #ffffff;
+}
+
+
+
+/*BUILDINGS*/
+
+
+.buildings {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.item-building {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.item-building .caption-style {
+    width: 310px;
+    position: absolute;
+    text-align: left;
+    left: 50%;
+    margin-left: -155px;
+}
+
+.item-building .caption {
+    bottom: 35px;
+}
+
+
+.item-building img {
+    transform: perspective(0px) rotateY(0deg);
+    webkit-transform: perspective(0px) rotateY(0deg);
+
+
+    -webkit-transition: all 800ms ease;
+    -moz-transition: all 800ms ease;
+    -ms-transition: all 800ms ease;
+    -o-transition: all 800ms ease;
+    transition: all 800ms ease;
+
+
+}
+
+.item-building:hover img {
+    transform: perspective(100px) rotateY(-3deg);
+    transform-origin: right center;
+    webkit-transform: perspective(100px) rotateY(-3deg);
+    -webkit-transform-origin: right center;
+    opacity: .5;
+
+}
+
+.item-building .caption-hover {
+    top: 0;
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    margin-left: -160px;
+}
+
+.item-building .caption-style .number {
+    font-size: 5em;
+    font-weight: bold;
+    display: block;
+    font-family: TextaAlt-Black;
+}
+
+.item-building .caption-style .txt_tipo {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin: 8px 0;
+    font-family: TextaAlt-Black;
+}
+
+.item-building .caption {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+
+
+}
+
+.item-building .caption-hover .descubre-btn {
+
+    margin-top: 40px;
+
+}
+
+.item-building:hover .caption {
+    opacity: 0;
+}
+
+
+.item-building .caption-hover {
+    display: none;
+}
+
+.item-building:hover .caption-hover {
+    display: block;
+
+}
+
+.item-building .caption-hover .number {
+
+    animation-name: fadeInUp;
+    -webkit-animation-delay: .2s; /* Safari 4.0 - 8.0 */
+    animation-delay: .2s;
+    font-family: TextaAlt-Black;
+
+}
+
+.item-building .caption-hover .txt_tipo {
+
+    animation-name: fadeInUp;
+    -webkit-animation-delay: .8s; /* Safari 4.0 - 8.0 */
+    animation-delay: .8s;
+    font-family: TextaAlt-Black;
+
+}
+
+.item-building .caption-hover .txt_info {
+
+    width: 85%;
+    animation-name: fadeInUp;
+    -webkit-animation-delay: .6s; /* Safari 4.0 - 8.0 */
+    animation-delay: .6s;
+    font-family: TextaAlt-Bold;
+    font-size: 19px;
+    line-height: 19px;
+
+}
+
+.item-building .caption-hover .descubre-btn {
+
+    animation-name: fadeInUp;
+    -webkit-animation-delay: .8s; /* Safari 4.0 - 8.0 */
+    animation-delay: .8s;
+
+}
+
+
+
+
+/*PLAN MAESTRO Y PLANTAS*/
+
+.tipo_de_plantas .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.section-noscroll {
+    min-height: 100vh;
+    overflow: hidden;
+    padding-top: 65px;
+}
+
+.no-padding {
+    padding-top: 0px;
+}
+
+
+.plan_maestro_img {
+    width: 100%;
+   height: 100%;
+    background-size: cover;
+}
+
+.plan_maestro_img img {
+    width: 100%;
+}
+
+
+.no-padding {
+    padding: 0;
+}
+
+.title_info {
+    text-align: left;
+    margin:40px 0 0 -8%;
+    animation-name: fadeInRight;
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
+}
+
+
+.title_info h2, .title_info h3 {
+    display: inline-block;
+    margin: 0;
+}
+
+.title_info h2 {
+    font-size: 2em;
+    font-family: TextaAlt-Bold;
+}
+
+
+.title_info h3 {
+    font-size: 4em;
+    font-family: TextaAlt-Heavy;
+} 
+
+.content_info {
+    width: 70%;
+    text-align: justify;
+    margin-top: 90px;
+    font-size: 1.2em;
+    animation-name: fadeInLeft;
+    -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1.5s;
+}
+
+.menu-right-lat {
+    position: fixed;
+    right: 3px;
+    top: 25%;
+    text-align: left;
+}
+
+.menu-right-lat .nav li{
+
+    display: block;
+    margin: 40px 0;
+    text-align: right;
+}
+
+.menu-right-lat .nav li span.line {
+    width: 40px;
+    height: 1px;
+    display: inline-block;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    margin-left: 10px;
+
+}
+
+.menu-right-lat .nav li a{
+    font-size: 1.1em;
+    font-family: TextaAlt-Heavy;
+    text-transform: uppercase;
+}
+
+.menu-right-lat .nav li a:hover{
+    text-decoration: none;
+}
+
+.menu-right-lat .nav li a.active{
+    font-size: 1.2em;
+}
+
+.menu-right-lat .nav li a.active span.line, .menu-right-lat .nav li:hover a span.line {
+    width: 65px;
+    
+}
+
+.detail-info {
+    width: 50%;
+    list-style: none;
+    padding: 0;
+    margin: 80px 0;
+    display: block;
+}
+
+.detail-info.espacios {
+    width: 80%;
+}
+
+.detail-info.espacios i {
+    font-size: 11px;
+}
+
+
+/*AMENIDADES*/
+
+.amenidades h2, .about_us h2, .contacto h2 {
+    font-size: 4em;
+    font-family: TextaAlt-Black;
+    margin-bottom: 0;
+}
+
+.amenidades-items {
+    margin: 40px 0;
+}
+
+.item-amenidades h3 {
+    text-align: left;
+    font-family: TextaAlt-Bold;
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+
+.item-amenidades p {
+    margin-top: 0px;
+}
+
+.item-amenidades {
+    text-align: left;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.line-gold {
+    width: 40px;
+    height: 3px;
+    background: #a0945b;
+    margin: auto;
+}
+
+.amenidades .img-amenidades {
+    max-width: 100%;
+}
+
+
+/*ABOUT US*/
+
+.about_us h2 {
+    text-align: left;
+}
+
+.about_us h2 span {
+    font-family: TextaAlt-Regular;
+}
+
+.txt_about {
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+.detail_line {
+    width: 50%;
+    display: block;
+    float: right;
+    height: 4px;
+}
+
+.logos {
+    padding-top: 10%;
+}
+
+.logos img {
+    margin: 50px 0;
+}
+
+.destacado {
+    font-family: TextaAlt-Bold;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    margin: 30px 0;
+    padding: 0 50px;
+}
+
+.img-panoramica {
+    width: 100%;
+    background: url("../img/augusta-panoramica.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+
+.phrase {
+    width: 30%;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/*CONTACTO*/
+
+.contacto, .amenidades, .about_us {
+    width: 70%;
+}
+
+
+.contacto-formulario {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.contacto-formulario .form-label {
+    text-transform: uppercase;
+    font-family: TextaAlt-Bold;
+    font-size: 1.1em;
+}
+
+.contacto-formulario .form-control {
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.contacto-formulario .enviarForm {
+    font-size: 1em;
+    padding: 10px 40px;
+    font-family: TextaAlt-Black;
+}
+
+
+.contacto-formulario label.error {
+    color: #ff0000;
+}
+
+.contacto-formulario #response {
+    text-align: right;
+    font-family: TextaAlt-Bold;
+    font-size: 1.2em;
+    
+}
+
+.iconos-contacto {
+    list-style: none;
+    text-align: left;
+}
+
+.iconos-contacto .icon, .iconos-contacto .icon-txt {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 0;
+}
+
+.iconos-contacto .icon {
+    width: 20%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.iconos-contacto .icon-txt {
+
+    width: 70%;
+    color: #828282;
+
+}
+
+.iconos-contacto .icon-txt b{
+    font-family: TextaAlt-Black;
+}
+
+.contacto .submit   {
+    margin-top: 20px;
+}
+
+
+.iconos-contacto li {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.iconos-contacto li:last-child {
+    border: none;
+}
+
+/*UBICACIÓN - RECORRIDO*/
+
+.mapa {
+    width: 100%;
+    min-height: calc(100vh - 160px);
+}
+
+.ubicacion {
+    width: 100%;
+}
+
+.ubicacion.view-content {
+    padding: 0;
+}
+
+
+/*GALERIA*/
+
+.galeria {
+    background: #000000;
+}
+
+.galeria .view-content {
+    width: 100%!important;
+    padding: 0;
+}
+
+.galeria .footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+#toolbar {
+    position: fixed;
+    z-index: 3;
+    right: 10px;
+    top: 0;
+    padding: 5px;
+    display: none
+}
+
+#toolbar img {
+    border: none;
+}
+
+#img_title {
+    position: fixed;
+    z-index: 3;
+    left: 10px;
+    top: 10px;
+    padding: 10px;
+    color: #FFF;
+    text-transform: uppercase;
+    display: none;
+}
+
+#bg {
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#bgimg {
+    display: none;
+    -ms-interpolation-mode: bicubic;
+}
+
+#preloader {
+    position: relative;
+    z-index: 3;
+    width: 32px;
+    padding: 20px;
+    top: 80px;
+    margin: auto;
+}
+
+#thumbnails_wrapper {
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: url(../img/empty.gif); /* stupid ie needs a background value to understand hover area */
+}
+
+#outer_container {
+    position: relative;
+    padding: 0;
+    width: 100%;
+    margin: 40px auto;
+}
+
+#outer_container .thumbScroller {
+    position: relative;
+    overflow: hidden;
+    background: url(../img/fs_img_g_bg.png);
+}
+
+#outer_container .thumbScroller, #outer_container .thumbScroller .container, #outer_container .thumbScroller .content {
+    height: 170px;
+}
+
+#outer_container .thumbScroller .container {
+    position: relative;
+    left: 0;
+}
+
+#outer_container .thumbScroller .content {
+    float: left;
+}
+
+#outer_container .thumbScroller .content div {
+    margin: 5px;
+    height: 100%;
+}
+
+#outer_container .thumbScroller img {
+    border: 3px solid #fff;
+}
+
+#outer_container .thumbScroller .content div a {
+    display: block;
+    padding: 5px;
+}
+
+.nextImageBtn, .prevImageBtn {
+    display: block;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 35%;
+    margin: -25px 10px 0 10px;
+    z-index: 3;
+    filter: alpha(opacity=40);
+    -moz-opacity: 0.4;
+    -khtml-opacity: 0.4;
+    opacity: 0.4;
+}
+
+.nextImageBtn:hover, .prevImageBtn:hover {
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}
+
+.nextImageBtn {
+    right: 0;
+    background: #000 url(../img/nextImgBtn.png) center center no-repeat;
+    background-size: contain;
+}
+
+.prevImageBtn {
+    background: #000 url(../img/prevImgBtn.png) center center no-repeat;
+    background-size: contain;
+}
+
+
+
+/*FOOTER*/
+
+.footer {
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+.item-footer {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.item-footer a {
+    color: #ffffff;
+}
+
+
+
+@media (max-width: 1130px) and (min-width: 985px){
+
+
+.item-building img {
+    width: 100%;
+}
+
+.item-building .caption-style {
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+    padding: 0 10px;
+
+}
+
+
+
+
+}
+
+@media (max-width: 1160px) {
+
+    .contacto, .amenidades, .about_us {
+        width: 90%;
+    }
+
+    .detail-info {
+        width: 80%;
+        font-size: .8em;
+    }
+
+    .phrase {
+        width: 80%;
+        padding: 50px 0;
+    }
+
+    .menu-right-lat {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 760px) {
+
+    .tipo_de_plantas .view-content {
+        padding-top: 0;
+    }
+
+
+
+
+    .plan_maestro_img {
+        height: 350px !important;
+        overflow: hidden;
+
+    }
+
+    .title_info {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .content_info {
+        width: 85%;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .section-noscroll {
+        padding: 0 0 40px 0;
+    }
+}
+
+@media (max-width: 500px){
+
+
+    .logo-intro {
+        max-width: 80%;
+    }
+
+    .header {
+        width: 100%;
+        position: fixed;
+    }
+
+    .view-content {
+        padding-top: 70px;
+    }
+
+    .contacto, .amenidades, .about_us, .txt-introduction {
+        width: 90%;
+    }
+
+    .header .logo {
+        width: 45px;
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    .header .logo img {
+        width: auto;
+    }
+
+    .header .menu {
+        margin-top: 15px;
+    }
+
+    .item-head {
+        display: none;
+    }
+
+.item-building img {
+    width: 100%;
+}
+
+.item-building .caption-style {
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+    padding: 0 10px;
+
+}
+
+.item-building .caption-hover .txt_info {
+    font-size: 17px;
+    line-height: 17px;
+    width: 90%;
+}
+
+.item-building .caption-hover .descubre-btn {
+    margin-top: 20px !important;
+}
+
+.txt-intro {
+    width: 90%;
+}
+
+.footer .item-footer{
+    float: none;
+    display: block;
+    text-align: center;
+
+}
+
+.about_us h2, .amenidades h2, .contacto h2 {
+    font-size: 2.2em;
+}
+
+.txt_about, .txt-introduction {
+    font-size: 1.2em !important;
+}
+
+
+
+.destacado {
+    padding: 0 20px;
+    font-size: 1.4em;
+}
+
+.logos img {
+    width: 90px;
+    margin: 20px 0;
+}
+
+.contacto-formulario {
+    margin-bottom: 40px;
+}
+
+.item-amenidades {
+    text-align: justify;
+}
+
+
+    .galeria .footer {
+        position: static;
+    }
+
+
+    .nextImageBtn, .prevImageBtn {
+        width: 30px;
+        height: 30px;
+        top: 45%;
+    }
+
+    #outer_container .thumbScroller img {
+        height: 90px;
+    }
+
+    #outer_container .thumbScroller, #outer_container .thumbScroller .container, #outer_container .thumbScroller .content {
+        height: 110px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

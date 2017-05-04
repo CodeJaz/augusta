@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Augusta en bosque real - El equilibrio entre naturaleza y sofisticación dan por resultado una atmósfera especialmente pensada para un exclusivo estilo de vida.">
+    <meta name="keywords" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur dignissimos doloremque dolores dolorum ducimus expedita facilis illo in ipsa labore modi nemo nulla obcaecati, perspiciatis qui quo soluta temporibus">
+
+    <link rel="canonical" href="http://augustabosquereal.com" />
+
+    <!-- Facebook Open Graph -->
+    <meta property="og:locale" content="es_MX"/>
+    <meta property="og:site_name" content="Augusta"/>
+    <meta property="og:title" content="Augusta bosque real"/>
+    <meta property="og:url" content="http://augustabosquereal.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur digni"/>
+    <meta property="og:image" content="http://augustabosquereal.com/img/logo-augusta-dorado.png"/>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/bigvideo.css"/>
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css"/>
+
+    <title>Augusta | Intro</title>
+
+</head>
+<body class="intro">
+<div class="overlay"></div>
+<div class="animsition-overlay">
+  <div class="container-fluid ">
+
+
+
+
+    <div class="row">
+
+
+
+       <div class="container ">
+
+
+           <div class="intro-view">
+
+               <img src="img/logo-augusta-blanco-.png" alt="logo-augusta-bosque-real" class="animated logo-intro" />
+
+
+               <p class="txt-intro animated ">El equilibrio entre naturaleza y sofisticación dan por resultado una atmósfera especialmente pensada para un exclusivo estilo de vida.</p>
+
+               <a href="home.php" class="btn btn-intro animated animsition-link" title="Descubre más">DESCUBRE MÁS</a>
+
+               <br/>
+               <div class="videos animated">
+                   <a href="https://player.vimeo.com/video/172369054/" class="fancybox fancybox.iframe" >Video Augusta</a>&nbsp;&nbsp; | <a href="https://player.vimeo.com/video/214179269/" class="fancybox fancybox.iframe" >Video avance de obra</a>
+               </div>
+
+               <p class="by animated">Por: <b>SORDO MADALENO ARQUITECTOS</b></p>
+
+
+
+
+           </div>
+
+
+       </div>
+
+    </div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/animsition.min.js"></script>
+<script type="text/javascript" src="js/velocity.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<!-- BigVideo -->
+<script type="text/javascript" src="js/video.js"></script>
+<script type="text/javascript" src="js/bigvideo.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+
+<script>
+
+    $(function() {
+
+
+        $(".fancybox").fancybox({
+            openEffect  : 'none',
+            closeEffect : 'none',
+            nextEffect  : 'none',
+            prevEffect  : 'none',
+            padding     : 0
+        });
+
+        // initialize BigVideo
+        var BV = new $.BigVideo();
+        BV.init();
+        BV.show('img/video.mp4', {ambient: true});
+
+
+
+
+    });
+
+
+</script>
+
+</body>
+</html>

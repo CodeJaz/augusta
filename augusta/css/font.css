@@ -1,0 +1,40 @@
+
+@font-face {
+    font-family: Texta-Black;
+    src: url("fonts/Texta-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Texta-Bold;
+    src: url("fonts/Texta-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Texta-Heavy;
+    src: url("fonts/Texta-Heavy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Texta-Regular;
+    src: url("fonts/Texta-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TextaAlt-Black;
+    src: url("fonts/TextaAlt-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TextaAlt-Bold;
+    src: url("fonts/TextaAlt-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TextaAlt-Heavy;
+    src: url("fonts/TextaAlt-Heavy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TextaAlt-Regular;
+    src: url("fonts/TextaAlt-Regular.otf") format("opentype");
+}

@@ -1,0 +1,46 @@
+
+.intro-view, .by {
+    color: #ffffff;
+}
+
+.menu-right-lat .nav li span.line, .header, .footer  {
+    background: #000000;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active {
+    background: #000000;
+    color: #ffffff;
+}
+
+.btn-default, .menu-right-lat .nav li a.active span.line, .menu-right-lat .nav li a:hover span.line, .detail_line {
+    background: #a0945b;
+}
+
+.view-content p.txt-introduction, .item-building .caption-style .txt_tipo, .title_info, .menu-right-lat .nav li a, .destacado,  .iconos-contacto .icon, .amenidades p.txt-introduction, .contacto p.txt-introduction, .about_us h2 span  {
+    color: #000000;
+}
+
+.item-building .caption-style .number {
+
+    color: #000000;
+    border-bottom: 4px solid #a0945b;
+
+}
+
+.title_info h3 {
+    border-top: 4px solid #a0945b;
+}
+
+
+.menu-right-lat .nav li a.active, .menu-right-lat .nav li a:hover, .item-amenidades h3, .amenidades h2, .about_us h2, .contacto h2, .contacto-formulario .form-label, .iconos-contacto .icon-txt b {
+    color: #a0945b;
+
+}
+
+
+
+
+
+
+
+
